@@ -1,0 +1,14 @@
+Avaliação de Riscos
+
+    • Impacto: alto — exposição de credenciais e acessos indevidos.
+    • Probabilidade: moderada — aumenta sem HTTPS ou MFA.
+    • Risco total: alto.
+
+
+Recomendações de Mitigação
+
+    • 2FA/MFA obrigatório (Google Authenticator, SMS, E-mail).
+    • Forçar HTTPS + HSTS e usar certificados válidos.
+    • Verificação de URL/domínio e treinamentos contra phishing.
+    • Cabeçalhos de segurança (CSP, X-Frame-Options, nosniff).
+    • Monitoramento e logs centralizados (SIEM/Wazuh).
